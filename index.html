@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harikrushn Seven Step Education Academy</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Harikrushn Seven Step Education Academy</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="campus-life.html">Campus Life</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to Harikrushn Seven Step Education Academy</h2>
+            <p>Empowering students with knowledge and values for a brighter future.</p>
+        </section>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Harikrushn Seven Step Education Academy is a premier educational institution dedicated to providing
+                quality education to students. Our mission is to foster a learning environment that nurtures
+                intellectual growth, critical thinking, and ethical values.</p>
+            <a href="#" class="btn">Learn More</a>
+        </section>
+
+        <section class="academics">
+            <h2>Our Academic Programs</h2>
+            <ul>
+                <li>
+                    <h3>Primary Education</h3>
+                    <p>Laying the foundation for lifelong learning.</p>
+                </li>
+                <li>
+                    <h3>Secondary Education</h3>
+                    <p>Preparing students for higher studies and future careers.</p>
+                </li>
+                <li>
+                    <h3>Vocational Training</h3>
+                    <p>Equipping students with practical skills for the job market.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="admissions">
+            <h2>Admissions</h2>
+            <p>We welcome students from diverse backgrounds and provide equal opportunities for all.</p>
+            <a href="#" class="btn">Apply Now</a>
+        </section>
+
+        <section class="campus">
+            <h2>Campus Life</h2>
+            <p>Our campus offers a vibrant and enriching environment for students to learn, grow, and thrive.</p>
+            <div class="gallery">
+                <img src="s1.webp" alt="Campus Image 1">
+                <img src="s2.webp" alt="Campus Image 2">
+                <img src="s3.webp" alt="Campus Image 3">
+            </div>
+        </section>
+
+        <!-- ... existing content ... -->
+
+<section class="news-events">
+    <h2>News & Events</h2>
+    <article>
+        <h3>Science Fair 2024</h3>
+        <p>Join us for our annual science fair and see the innovative projects our students have been working on.</p>
+    </article>
+    <!-- Repeat for other news articles -->
+</section>
+
+<section class="testimonials">
+    <h2>What People Say</h2>
+    <blockquote>
+        <p>"The Seven Step Education Academy has been a transformative experience for my child."</p>
+        <cite>- Jane Doe, Parent</cite>
+    </blockquote>
+    <!-- Repeat for other testimonials -->
+</section>
+
+<section class="faculty">
+    <h2>Our Esteemed Faculty</h2>
+    <div class="faculty-member">
+        <img src="faculty1.jpg" alt="Faculty Member Name">
+        <h3>Dr. John Smith</h3>
+        <p>Head of Science Department</p>
+    </div>
+    <!-- Repeat for other faculty members -->
+</section>
+
+<section class="facilities">
+    <h2>Our State-of-the-Art Facilities</h2>
+    <p>From a modern library to advanced science labs, we provide our students with the best facilities.</p>
+    <!-- Details about other facilities -->
+</section>
+
+<section class="achievements">
+    <h2>Our Achievements</h2>
+    <ul>
+        <li>Winner of the National Robotics Championship 2023</li>
+        <li>Top-rated School in State Education Rankings for the past 5 years</li>
+        <!-- More achievements -->
+    </ul>
+</section>
+
+<section class="partnerships">
+    <h2>Our Valued Partnerships</h2>
+    <p>We collaborate with leading educational and technological organizations to provide enriched learning experiences.</p>
+    <!-- Details about partnerships -->
+</section>
+
+<!-- ... existing footer ... -->
+    </main>
+
+    <footer>
+        <div class="map">
+            <h3>Our Location</h3>
+            <div id="map"></div>
+        </div>
+        <div class="contact-info">
+            <div class="contact">
+                <h3>
+                <center>Contact Us</center>
+                </h3>
+                <p>123 Main Street, City, State</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@academy.edu</p>
+            </div>
+            <div class="social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; Harikrushn Seven Step Education Academy</p>
+    </footer>
+
+    <!-- Add this script tag at the end of your HTML file, before the closing </body> tag -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script>
+        function initMap() {
+            var mapOptions = {
+                center: { lat: 40.7128, lng: -74.0059 }, // Set your desired location coordinates
+                zoom: 12 // Set the desired zoom level
+            };
+
+            var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        }
+    </script>
+</body>
+</html>
